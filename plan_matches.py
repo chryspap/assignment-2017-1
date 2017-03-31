@@ -31,7 +31,6 @@ while(len(data)>0):
     result.append(res)
 i=0
 
-#Transform result to list[ [#day, [ list(pairs) ] ] ]form, e.g. [ [0, [ [a,b], [a,c] ] ]
 #and sort pairs internally using sorted()
 sortedResult=[]
 for l in result:
